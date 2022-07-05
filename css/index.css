@@ -12,6 +12,7 @@ nav{
 }
 
 a{
+    position: relative;
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -28,6 +29,21 @@ a::before{
     background-color: #65A603;
     margin-right: 10px;
 }    
+a::after{
+    content:"";
+    background: rgb(103,194,74);
+    background: linear-gradient(90deg, rgba(103,194,74,1) 0%, rgba(0,255,58,1) 47%, rgba(12,116,57,1) 100%);
+    height: 2px;
+    border-radius: 2px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease 0.8s;
+}
+a:hover::after{
+    width: 100%;
+}
 
 #button{
     display: inline-block;
@@ -42,4 +58,7 @@ a::before{
 #button:hover{
     background-color: #80c519;
     transform: scale(1.1);
+}
+#button:hover::after{
+    width: 0;
 }
