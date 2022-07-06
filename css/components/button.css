@@ -7,6 +7,9 @@
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
     transition: all ease 0.5s;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
 }
 .button:hover{
     background-color: #80c519;
