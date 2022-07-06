@@ -1,0 +1,11 @@
+.title-banner{
+    display: inline-block;
+    text-align: center;
+    background-color: #3A4042;
+    padding: 28px 66px 34px;
+    box-shadow: 10px 10px 0 #000;
+    text-shadow: 4px 4px 0 #000;
+}
+.title-banner h1{
+    margin-bottom: 18px;
+}
