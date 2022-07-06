@@ -7,10 +7,6 @@ header{
     padding: 10px 20px;
 }
 
-nav{
-    text-align: right;
-}
-
 a{
     position: relative;
     display: inline-flex;
@@ -45,7 +41,7 @@ a:hover::after{
     width: 100%;
 }
 
-#button{
+.button{
     display: inline-block;
     background-color: #65A603;
     line-height: 60px;
@@ -55,10 +51,26 @@ a:hover::after{
     margin-right: 0;
     transition: all ease 0.5s;
 }
-#button:hover{
+.button:hover{
     background-color: #80c519;
     transform: scale(1.1);
 }
-#button:hover::after{
+.button:hover::after{
     width: 0;
+}
+
+h2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff
+}
+
+.title-banner{
+    display: inline-block;
+    text-align: center;
+    background-color: #3A4042;
+    padding: 28px 66px 34px;
+    box-shadow: 10px 10px 0 #000;
+    text-shadow: 4px 4px 0 #000;
 }
