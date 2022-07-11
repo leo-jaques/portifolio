@@ -1,4 +1,4 @@
-.title{
+.main-title{
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
     text-shadow: 4px 4px 0 #000;
@@ -6,7 +6,7 @@
     color: #65A603;
 }
 
-.title.-second{
+.main-title.-second{
     text-align: center;
     color: #FFF;
     text-shadow: none;
