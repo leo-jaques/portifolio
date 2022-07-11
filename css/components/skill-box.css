@@ -1,0 +1,15 @@
+.skill-box{
+    display: flex;
+    font-family: 'NanumGothic', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+.skill-box .icon{
+    margin-right: 25px;
+}
+
+.skill-box .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
