@@ -1,0 +1,19 @@
+.image-card{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    box-shadow: 10px 10px 0 #fff;
+    aspect-ratio: 1;
+    transition: all ease-in-out 300ms;
+}
+.image-card:hover{
+    transform: scale(1.1);
+}
+.image-card.-green{
+    background-color: #40592E;
+}
+.image-card.-blue{
+    background-color: #4C5B84;
+}
